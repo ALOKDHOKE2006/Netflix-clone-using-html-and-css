@@ -1,0 +1,120 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+ body{
+    background-color: black;
+ }
+
+.main{
+    background-image: url("images/WhatsApp\ Image\ 2024-03-20\ at\ 17.02.51_9081fb87.jpg");
+    background-position: center center;
+    background-size: max(1200px , 100vw) ;
+    background-repeat: no-repeat;
+    height: 80vh;
+}
+.main .box{
+    height: 70vh;
+    width: 100vw;
+    opacity: 0.44;
+    background-color: black;
+    position: absolute;
+    top: 0%;
+    background-color: black;
+}
+nav{
+    max-width: 70vw;
+    margin: auto;
+    display: flex;
+   justify-content: space-between;
+    align-content: center;
+    height: 102px;
+}
+.main nav span img{
+    height: 210px;
+    width: 212px;
+    z-index: 10;
+}
+nav  div button {
+    position: relative;
+    z-index: 10;
+}
+ .hero { 
+    height: calc( 100% - 62px);
+    /* height: 100px; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content:center ;
+    flex-direction: column;
+    color: white;
+    position: relative;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    gap: 20px;
+    padding: 30px;
+    text-align: center;
+}
+.hero> :nth-child(1) {
+    font-weight: 900;
+    font-size: 48px;
+}
+.hero> :nth-child(2){
+    font-weight: 400;
+    font-size: 24px;
+}
+.hero> :nth-child(3){
+    font-weight: 400;
+    font-size: 20px;
+}
+.separation {
+    height: 7px;
+    background-color: rgb(35, 35, 35);
+}
+.btn {
+    top: 10px;
+  
+    padding:  3px 8px;
+    font-weight: bold;
+    background-color: white;
+}
+.btn-red {
+ background-color: red;
+ color: white;
+ padding: 2px;
+ font-size: 20px;
+ border-radius: 4px;
+}
+
+.main input{
+    padding: 3px 24px;
+    font-size: 20px;
+    border-radius: 4px;
+    background-color: rgba(23,23,23,0.2);
+}
+
+.btn-red-sm{
+    top: 10px;
+    background-color: red;
+}
+.first{
+    height: calc( 100% - 62px);
+    /* height: 100px; */
+    display: flex;
+    
+  
+    color: white;
+    position: relative;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    gap: 20px;
+    padding: 30px;
+    text-align: center;
+    max-width: 50vw;
+    margin: auto;
+    color: white;
+    font-size: 33px;
+    position: relative;
+
+}
+.image {
+    width: 30vw;
+}
